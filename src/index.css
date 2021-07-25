@@ -5,6 +5,7 @@
 
 button {
   @apply focus:outline-none;
+  @apply cursor-pointer;
 }
 
 textarea {
