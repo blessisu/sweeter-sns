@@ -11,3 +11,7 @@ textarea {
   @apply focus:outline-none;
   @apply resize-none;
 }
+
+input {
+  @apply focus:outline-none;
+}
