@@ -6,3 +6,8 @@
 button {
   @apply focus:outline-none;
 }
+
+textarea {
+  @apply focus:outline-none;
+  @apply resize-none;
+}
