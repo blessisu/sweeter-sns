@@ -1,7 +1,7 @@
 <template>
   <div class="flex h-screen">
     <!-- app side bar start-->
-    <div class="w-1/4 pt-5 ml-5 flex flex-col justify-between border-r border-gray-200">
+    <div class="w-1/4 pt-5 ml-5 flex flex-col justify-between border-r border-gray-100">
       <div class="flex flex-col items-center lg:items-start">
         <!-- logo -->
         <i class="fas fa-candy-cane text-3xl text-primary lg:ml-4 mb-3"></i>
@@ -67,7 +67,34 @@
     </div>
     <!-- app side bar end-->
 
-    <div class="flex-1">dd</div>
+    <div class="flex-1">
+      <div class="flex h-screen">
+        <!-- main section -->
+        <div class="flex-1 border-r bodrer-gray-100">
+          <div class="flex flex-col">
+            <!-- main title -->
+            <div class="border-b border-gray-100 px-3 py-2 font-bold text-lg">홈</div>
+            <!-- main sweet -->
+            <div class="flex px-3 py-3 border-b-8 border-gray-100">
+              <img src="http://picsum.photos/200" class="w-10 h-10 rounded-full hover:opacity-70 cursor-pointer">
+              <div class="ml-2 flex flex-1 flex-col">
+                <textarea
+                  placeholder="무슨 일이 일어나고 있나요?"
+                  class="mb-3 w-full text-lg font-bold"
+                ></textarea>
+                <div class="text-right">
+                  <button class="bg-primary text-white text-sm font-bold px-4 py-1 rounded-full hover:bg-dark">
+                    Sweet
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- trend section -->
+        <div class="w-2/5">trend</div>
+      </div>
+    </div>
   </div>
 </template>
 
