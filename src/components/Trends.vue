@@ -43,15 +43,13 @@
             :key="recommend"
         >
             <div class="flex items-center">
-            <div>
                 <img src="http://picsum.photos/200" class="w-12 h-12 rounded-full mr-2">
-            </div>
             <div class="flex-1 flex flex-col">
                 <div class="font-bold text-lg">해리 포터</div>
                 <div class="text-gray-500">@potter_harry</div>
             </div>
             <div>
-                <button class="border-2 border-primary px-4 py-1 rounded-full hover:bg-lighter text-primary">팔로우</button>
+                <button class="font-bold text-bold border-2 border-primary px-3 py-1 rounded-full hover:bg-lighter text-primary">팔로우</button>
             </div>
             </div>
         </div>
