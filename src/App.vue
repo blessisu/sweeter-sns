@@ -1,40 +1,41 @@
 <template>
-  <div class="flex h-screen">
+  <div class="flex h-screen container mx-auto">
     <!-- app side bar start-->
-    <div class="w-1/4 pt-5 ml-5 flex flex-col justify-between border-r border-gray-100">
+    <div class="w-20 lg:w-1/4 pt-5 lg:ml-5 flex flex-col justify-between border-r border-gray-100">
       <div class="flex flex-col items-center lg:items-start">
         <!-- logo -->
         <i class="fas fa-candy-cane text-3xl text-primary lg:ml-4 mb-3"></i>
         <!-- side-bar menu -->
         <div class="flex flex-col items-start"> 
-          <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full">
+          <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full cursor-pointer">
             <i class="fas fa-home fa-fw text-2xl"></i>
             <span class="ml-5 text-lg hidden lg:inline-block">Home</span>
           </div>
-          <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full">
+          <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full cursor-pointer">
             <i class="fas fa-hashtag fa-fw text-2xl"></i>
             <span class="ml-5 text-lg hidden lg:inline-block">탐색</span>
           </div>
-          <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full">
+          <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full cursor-pointer">
             <i class="fas fa-bell fa-fw text-2xl"></i>
             <span class="ml-5 text-lg hidden lg:inline-block">알림</span>
           </div>
-          <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full">
+          <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full cursor-pointer">
             <i class="fas fa-envelope fa-fw text-2xl"></i>
             <span class="ml-5 text-lg hidden lg:inline-block">쪽지</span>
-          </div>        <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full">
+          </div>        
+          <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full cursor-pointer">
             <i class="fas fa-bookmark fa-fw text-2xl"></i>
             <span class="ml-5 text-lg hidden lg:inline-block">북마크</span>
           </div>
-          <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full">
+          <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full cursor-pointer">
             <i class="fas fa-list-alt fa-fw text-2xl"></i>
             <span class="ml-5 text-lg hidden lg:inline-block">리스트</span>
           </div>
-          <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full">
+          <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full cursor-pointer">
             <i class="fas fa-user fa-fw text-2xl"></i>
             <span class="ml-5 text-lg hidden lg:inline-block">프로필</span>
           </div>
-          <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full">
+          <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full cursor-pointer">
             <i class="fas fa-ellipsis-h fa-fw text-2xl"></i>
             <span class="ml-5 text-lg hidden lg:inline-block">더보기</span>
           </div>
