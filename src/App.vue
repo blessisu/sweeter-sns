@@ -3,7 +3,7 @@
     <!-- app side bar start-->
     <div class="w-1/4 mt-5 ml-5">
       <!-- logo -->
-      <i class="fas fa-candy-cane text-2xl text-primary"></i>
+      <i class="fas fa-candy-cane text-3xl text-primary"></i>
       <!-- side-bar menu -->
       <div class="flex flex-col items-start"> 
         <div class="hover:text-primary hover:bg-lighter px-4 py-2 rounded-full">
